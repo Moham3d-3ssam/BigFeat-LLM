@@ -1,0 +1,54 @@
+Number of new features 16
+==================
+Old Shape: (614, 8)
+==================
+New Shape: (614, 24)
+=================
+- New_feature_0:
+  - Built from columns ['DiabetesPedigreeFunction', 'Age', 'BMI']
+  - Using operators ['unary_cube', 'multiply', 'subtract', 'unary_sqrtabs']
+- New_feature_1:
+  - Built from columns ['BMI', 'BMI']
+  - Using operators ['original_feat', 'square', 'subtract']
+- New_feature_2:
+  - Built from columns ['Age', 'BMI', 'DiabetesPedigreeFunction']
+  - Using operators ['unary_sqrtabs', 'subtract', 'multiply']
+- New_feature_3:
+  - Built from columns ['BloodPressure', 'BMI', 'Glucose', 'BMI']
+  - Using operators ['subtract', 'add', 'add']
+- New_feature_4:
+  - Built from columns ['Age', 'Age', 'Glucose']
+  - Using operators ['multiply', 'unary_sqrtabs', 'add']
+- New_feature_5:
+  - Built from columns ['DiabetesPedigreeFunction', 'Glucose', 'Glucose']
+  - Using operators ['add', 'unary_cube', 'add', 'original_feat']
+- New_feature_6:
+  - Built from columns ['Glucose', 'BMI', 'BMI', 'Glucose', 'BMI', 'Glucose']
+  - Using operators ['subtract', 'original_feat', 'multiply', 'subtract', 'subtract', 'subtract']
+- New_feature_7:
+  - Built from columns ['Pregnancies', 'Age']
+  - Using operators ['subtract', 'absolute']
+- New_feature_8:
+  - Built from columns ['DiabetesPedigreeFunction', 'BMI', 'BloodPressure', 'BMI', 'DiabetesPedigreeFunction', 'BMI']
+  - Using operators ['add', 'subtract', 'subtract', 'multiply', 'unary_cube', 'subtract']
+- New_feature_9:
+  - Built from columns ['BMI', 'Glucose', 'Glucose', 'Glucose']
+  - Using operators ['subtract', 'multiply', 'subtract', 'unary_cube']
+- New_feature_10:
+  - Built from columns ['BloodPressure', 'BMI']
+  - Using operators ['subtract', 'absolute', 'unary_cube']
+- New_feature_11:
+  - Built from columns ['BMI', 'SkinThickness']
+  - Using operators ['subtract', 'unary_sqrtabs']
+- New_feature_12:
+  - Built from columns ['Glucose', 'DiabetesPedigreeFunction']
+  - Using operators ['multiply']
+- New_feature_13:
+  - Built from columns ['DiabetesPedigreeFunction', 'BMI']
+  - Using operators ['add']
+- New_feature_14:
+  - Built from columns ['BMI', 'DiabetesPedigreeFunction', 'Glucose', 'Age', 'BloodPressure']
+  - Using operators ['subtract', 'add', 'add', 'unary_sqrtabs', 'original_feat', 'subtract']
+- New_feature_15:
+  - Built from columns ['Age', 'DiabetesPedigreeFunction', 'DiabetesPedigreeFunction']
+  - Using operators ['multiply', 'unary_cube', 'subtract']

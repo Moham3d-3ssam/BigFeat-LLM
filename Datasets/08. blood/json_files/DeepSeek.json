@@ -1,0 +1,30 @@
+{
+  "iterations": 6,
+  "gen_size": 8,
+  "N": 16,
+  "alpha": 12,
+  "eta": 0.8,
+  "height": 3,
+  "n_trees": 300,
+  "estimator": "avg",
+  "random_state": 42,
+  "binary_operators": [
+    "np.multiply",
+    "np.add",
+    "np.subtract",
+    "local_utils.group_by"
+  ],
+  "unary_operators": [
+    "np.abs",
+    "np.square",
+    "local_utils.unary_cube",
+    "local_utils.unary_sqrtabs",
+    "local_utils.original_feat"
+  ],
+  "feature_importance": [
+    0.45,
+    0.25,
+    0.15,
+    0.15
+  ]
+}

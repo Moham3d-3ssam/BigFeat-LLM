@@ -1,0 +1,66 @@
+Number of new features 20
+==================
+Old Shape: (4400, 40)
+==================
+New Shape: (4400, 60)
+=================
+- New_feature_0:
+  - Built from columns ['texture_measure_22', 'texture_measure_12']
+  - Using operators ['subtract']
+- New_feature_1:
+  - Built from columns ['texture_measure_23']
+  - Using operators ['unary_sqrtabs', 'unary_sqrtabs']
+- New_feature_2:
+  - Built from columns ['texture_measure_23', 'texture_measure_12']
+  - Using operators ['subtract']
+- New_feature_3:
+  - Built from columns ['texture_measure_01', 'texture_measure_10']
+  - Using operators ['subtract']
+- New_feature_4:
+  - Built from columns ['texture_measure_23']
+  - Using operators ['unary_cube']
+- New_feature_5:
+  - Built from columns ['texture_measure_11', 'texture_measure_33', 'texture_measure_23', 'texture_measure_14']
+  - Using operators ['subtract', 'multiply', 'subtract']
+- New_feature_6:
+  - Built from columns ['texture_measure_33', 'texture_measure_19']
+  - Using operators ['subtract']
+- New_feature_7:
+  - Built from columns ['texture_measure_06']
+  - Using operators ['unary_sqrtabs']
+- New_feature_8:
+  - Built from columns ['texture_measure_18', 'texture_measure_04']
+  - Using operators ['subtract']
+- New_feature_9:
+  - Built from columns ['texture_measure_28', 'texture_measure_23']
+  - Using operators ['subtract']
+- New_feature_10:
+  - Built from columns ['texture_measure_30', 'texture_measure_10']
+  - Using operators ['subtract']
+- New_feature_11:
+  - Built from columns ['texture_measure_10', 'texture_measure_14', 'texture_measure_02']
+  - Using operators ['square', 'subtract', 'subtract']
+- New_feature_12:
+  - Built from columns ['texture_measure_07', 'texture_measure_30', 'texture_measure_20']
+  - Using operators ['absolute', 'subtract', 'add']
+- New_feature_13:
+  - Built from columns ['texture_measure_24', 'texture_measure_05']
+  - Using operators ['subtract']
+- New_feature_14:
+  - Built from columns ['texture_measure_05', 'texture_measure_10']
+  - Using operators ['subtract', 'original_feat']
+- New_feature_15:
+  - Built from columns ['texture_measure_16', 'texture_measure_20']
+  - Using operators ['subtract']
+- New_feature_16:
+  - Built from columns ['texture_measure_12', 'texture_measure_32']
+  - Using operators ['subtract']
+- New_feature_17:
+  - Built from columns ['texture_measure_03', 'texture_measure_10']
+  - Using operators ['subtract']
+- New_feature_18:
+  - Built from columns ['texture_measure_04', 'texture_measure_27', 'texture_measure_10']
+  - Using operators ['subtract', 'unary_sqrtabs', 'subtract']
+- New_feature_19:
+  - Built from columns ['texture_measure_04', 'texture_measure_33', 'texture_measure_26', 'texture_measure_30']
+  - Using operators ['subtract', 'subtract', 'subtract']

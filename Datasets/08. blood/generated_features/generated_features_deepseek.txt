@@ -1,0 +1,24 @@
+Number of new features 6
+==================
+Old Shape: (598, 4)
+==================
+New Shape: (598, 10)
+=================
+- New_feature_0:
+  - Built from columns ['Recency', 'Monetary']
+  - Using operators ['subtract', 'original_feat']
+- New_feature_1:
+  - Built from columns ['Recency', 'Frequency', 'Time', 'Frequency']
+  - Using operators ['multiply', 'subtract', 'group_by']
+- New_feature_2:
+  - Built from columns ['Recency', 'Frequency', 'Time', 'Recency']
+  - Using operators ['subtract', 'subtract', 'multiply']
+- New_feature_3:
+  - Built from columns ['Frequency', 'Time', 'Frequency', 'Time']
+  - Using operators ['multiply', 'add', 'group_by']
+- New_feature_4:
+  - Built from columns ['Recency', 'Time']
+  - Using operators ['multiply', 'absolute']
+- New_feature_5:
+  - Built from columns ['Monetary', 'Time']
+  - Using operators ['subtract']

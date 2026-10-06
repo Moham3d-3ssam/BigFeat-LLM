@@ -1,0 +1,45 @@
+Number of new features 13
+==================
+Old Shape: (598, 4)
+==================
+New Shape: (598, 17)
+=================
+- New_feature_0:
+  - Built from columns ['Monetary', 'Recency']
+  - Using operators ['subtract', 'unary_cube']
+- New_feature_1:
+  - Built from columns ['Recency', 'Monetary']
+  - Using operators ['subtract']
+- New_feature_2:
+  - Built from columns ['Monetary', 'Frequency', 'Time', 'Recency']
+  - Using operators ['multiply', 'subtract', 'subtract', 'unary_cube']
+- New_feature_3:
+  - Built from columns ['Time', 'Recency']
+  - Using operators ['square', 'absolute', 'unary_cube', 'square', 'multiply']
+- New_feature_4:
+  - Built from columns ['Recency', 'Frequency', 'Frequency']
+  - Using operators ['multiply', 'square', 'subtract']
+- New_feature_5:
+  - Built from columns ['Monetary', 'Time']
+  - Using operators ['subtract']
+- New_feature_6:
+  - Built from columns ['Time', 'Recency']
+  - Using operators ['group_by']
+- New_feature_7:
+  - Built from columns ['Recency', 'Time']
+  - Using operators ['multiply']
+- New_feature_8:
+  - Built from columns ['Time', 'Frequency', 'Recency']
+  - Using operators ['square', 'original_feat', 'absolute', 'square', 'group_by', 'multiply']
+- New_feature_9:
+  - Built from columns ['Time', 'Recency', 'Time', 'Recency']
+  - Using operators ['subtract', 'absolute', 'original_feat', 'unary_sqrtabs', 'subtract', 'multiply']
+- New_feature_10:
+  - Built from columns ['Time', 'Monetary', 'Frequency', 'Recency']
+  - Using operators ['subtract', 'square', 'group_by', 'unary_sqrtabs', 'add']
+- New_feature_11:
+  - Built from columns ['Monetary', 'Time', 'Time', 'Frequency']
+  - Using operators ['original_feat', 'multiply', 'multiply', 'absolute', 'absolute', 'group_by']
+- New_feature_12:
+  - Built from columns ['Monetary', 'Monetary', 'Time']
+  - Using operators ['absolute', 'subtract', 'add']

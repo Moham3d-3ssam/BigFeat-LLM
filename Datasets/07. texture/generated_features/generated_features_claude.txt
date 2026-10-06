@@ -1,0 +1,123 @@
+Number of new features 39
+==================
+Old Shape: (4400, 40)
+==================
+New Shape: (4400, 79)
+=================
+- New_feature_0:
+  - Built from columns ['texture_measure_03']
+  - Using operators ['absolute', 'unary_cube']
+- New_feature_1:
+  - Built from columns ['texture_measure_30']
+  - Using operators ['original_feat', 'absolute']
+- New_feature_2:
+  - Built from columns ['texture_measure_22', 'texture_measure_04']
+  - Using operators ['subtract', 'square']
+- New_feature_3:
+  - Built from columns ['texture_measure_10', 'texture_measure_33']
+  - Using operators ['unary_cube', 'unary_cube', 'multiply']
+- New_feature_4:
+  - Built from columns ['texture_measure_17', 'texture_measure_23', 'texture_measure_35']
+  - Using operators ['square', 'absolute', 'subtract', 'absolute', 'subtract']
+- New_feature_5:
+  - Built from columns ['texture_measure_07', 'texture_measure_40', 'texture_measure_28']
+  - Using operators ['subtract', 'square', 'multiply']
+- New_feature_6:
+  - Built from columns ['texture_measure_34', 'texture_measure_05']
+  - Using operators ['subtract', 'unary_sqrtabs']
+- New_feature_7:
+  - Built from columns ['texture_measure_28', 'texture_measure_14', 'texture_measure_40', 'texture_measure_31']
+  - Using operators ['original_feat', 'square', 'unary_cube', 'subtract', 'subtract', 'subtract']
+- New_feature_8:
+  - Built from columns ['texture_measure_17', 'texture_measure_37', 'texture_measure_03']
+  - Using operators ['original_feat', 'unary_cube', 'absolute', 'unary_sqrtabs', 'subtract', 'subtract']
+- New_feature_9:
+  - Built from columns ['texture_measure_04', 'texture_measure_35', 'texture_measure_29', 'texture_measure_23']
+  - Using operators ['subtract', 'unary_cube', 'subtract', 'unary_sqrtabs', 'subtract']
+- New_feature_10:
+  - Built from columns ['texture_measure_27', 'texture_measure_31']
+  - Using operators ['subtract']
+- New_feature_11:
+  - Built from columns ['texture_measure_31', 'texture_measure_33', 'texture_measure_17']
+  - Using operators ['add', 'original_feat', 'subtract']
+- New_feature_12:
+  - Built from columns ['texture_measure_05', 'texture_measure_33']
+  - Using operators ['subtract', 'square', 'original_feat']
+- New_feature_13:
+  - Built from columns ['texture_measure_38', 'texture_measure_09']
+  - Using operators ['subtract']
+- New_feature_14:
+  - Built from columns ['texture_measure_39', 'texture_measure_20']
+  - Using operators ['subtract']
+- New_feature_15:
+  - Built from columns ['texture_measure_09', 'texture_measure_12', 'texture_measure_33', 'texture_measure_19']
+  - Using operators ['square', 'unary_cube', 'subtract', 'unary_sqrtabs', 'multiply', 'subtract']
+- New_feature_16:
+  - Built from columns ['texture_measure_10', 'texture_measure_09']
+  - Using operators ['subtract']
+- New_feature_17:
+  - Built from columns ['texture_measure_23', 'texture_measure_14']
+  - Using operators ['subtract']
+- New_feature_18:
+  - Built from columns ['texture_measure_02', 'texture_measure_12']
+  - Using operators ['subtract', 'square']
+- New_feature_19:
+  - Built from columns ['texture_measure_20', 'texture_measure_23']
+  - Using operators ['original_feat', 'absolute', 'subtract']
+- New_feature_20:
+  - Built from columns ['texture_measure_10', 'texture_measure_03']
+  - Using operators ['subtract']
+- New_feature_21:
+  - Built from columns ['texture_measure_30', 'texture_measure_20']
+  - Using operators ['absolute', 'unary_cube', 'subtract']
+- New_feature_22:
+  - Built from columns ['texture_measure_02', 'texture_measure_21']
+  - Using operators ['unary_sqrtabs', 'unary_sqrtabs', 'subtract']
+- New_feature_23:
+  - Built from columns ['texture_measure_21', 'texture_measure_19', 'texture_measure_38']
+  - Using operators ['absolute', 'unary_cube', 'absolute', 'unary_cube', 'subtract', 'subtract']
+- New_feature_24:
+  - Built from columns ['texture_measure_31', 'texture_measure_17', 'texture_measure_09']
+  - Using operators ['unary_cube', 'subtract', 'subtract']
+- New_feature_25:
+  - Built from columns ['texture_measure_20', 'texture_measure_39', 'texture_measure_30', 'texture_measure_18']
+  - Using operators ['subtract', 'subtract', 'subtract', 'square']
+- New_feature_26:
+  - Built from columns ['texture_measure_24', 'texture_measure_22', 'texture_measure_36', 'texture_measure_38']
+  - Using operators ['multiply', 'subtract', 'add']
+- New_feature_27:
+  - Built from columns ['texture_measure_06', 'texture_measure_27', 'texture_measure_24', 'texture_measure_35']
+  - Using operators ['subtract', 'multiply', 'subtract']
+- New_feature_28:
+  - Built from columns ['texture_measure_35', 'texture_measure_30', 'texture_measure_17']
+  - Using operators ['subtract', 'square', 'subtract']
+- New_feature_29:
+  - Built from columns ['texture_measure_05', 'texture_measure_35', 'texture_measure_18', 'texture_measure_12']
+  - Using operators ['subtract', 'unary_sqrtabs', 'subtract', 'square', 'subtract']
+- New_feature_30:
+  - Built from columns ['texture_measure_30', 'texture_measure_25']
+  - Using operators ['original_feat', 'square', 'subtract']
+- New_feature_31:
+  - Built from columns ['texture_measure_24', 'texture_measure_35', 'texture_measure_16', 'texture_measure_07']
+  - Using operators ['subtract', 'multiply', 'subtract']
+- New_feature_32:
+  - Built from columns ['texture_measure_20', 'texture_measure_16']
+  - Using operators ['subtract']
+- New_feature_33:
+  - Built from columns ['texture_measure_10', 'texture_measure_21']
+  - Using operators ['subtract', 'unary_cube', 'unary_cube']
+- New_feature_34:
+  - Built from columns ['texture_measure_31', 'texture_measure_10', 'texture_measure_40', 'texture_measure_19']
+  - Using operators ['absolute', 'square', 'subtract', 'unary_cube', 'unary_sqrtabs', 'multiply', 'add']
+- New_feature_35:
+  - Built from columns ['texture_measure_17', 'texture_measure_07', 'texture_measure_01', 'texture_measure_32', 'texture_measure_28']
+  - Using operators ['subtract', 'unary_sqrtabs', 'absolute', 'subtract', 'subtract', 'subtract']
+- New_feature_36:
+  - Built from columns ['texture_measure_27', 'texture_measure_05']
+  - Using operators ['subtract', 'absolute']
+- New_feature_37:
+  - Built from columns ['texture_measure_12', 'texture_measure_27']
+  - Using operators ['subtract']
+- New_feature_38:
+  - Built from columns ['texture_measure_24', 'texture_measure_32']
+  - Using operators ['subtract']

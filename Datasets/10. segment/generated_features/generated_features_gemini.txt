@@ -1,0 +1,57 @@
+Number of new features 17
+==================
+Old Shape: (1848, 18)
+==================
+New Shape: (1848, 35)
+=================
+- New_feature_0:
+  - Built from columns ['region_centroid_row', 'exgreen_mean']
+  - Using operators ['multiply']
+- New_feature_1:
+  - Built from columns ['exred_mean', 'intensity_mean', 'rawblue_mean', 'saturation_mean', 'exgreen_mean']
+  - Using operators ['multiply', 'unary_sqrtabs', 'add', 'add', 'original_feat', 'add']
+- New_feature_2:
+  - Built from columns ['intensity_mean']
+  - Using operators ['unary_cube']
+- New_feature_3:
+  - Built from columns ['rawgreen_mean', 'exred_mean', 'exgreen_mean']
+  - Using operators ['unary_sqrtabs', 'unary_cube', 'unary_cube', 'unary_cube', 'add', 'subtract']
+- New_feature_4:
+  - Built from columns ['intensity_mean', 'hedge_sd', 'hue_mean']
+  - Using operators ['subtract', 'unary_cube', 'add', 'unary_sqrtabs']
+- New_feature_5:
+  - Built from columns ['saturation_mean', 'hue_mean']
+  - Using operators ['unary_sqrtabs', 'unary_sqrtabs', 'subtract']
+- New_feature_6:
+  - Built from columns ['region_centroid_row', 'saturation_mean', 'exgreen_mean']
+  - Using operators ['unary_cube', 'add', 'subtract']
+- New_feature_7:
+  - Built from columns ['region_centroid_row']
+  - Using operators ['unary_sqrtabs']
+- New_feature_8:
+  - Built from columns ['intensity_mean', 'region_centroid_row']
+  - Using operators ['unary_cube', 'unary_cube', 'add', 'unary_cube']
+- New_feature_9:
+  - Built from columns ['region_centroid_row', 'hue_mean', 'vedge_mean']
+  - Using operators ['subtract', 'original_feat', 'unary_cube', 'absolute', 'add']
+- New_feature_10:
+  - Built from columns ['exred_mean', 'rawblue_mean']
+  - Using operators ['multiply']
+- New_feature_11:
+  - Built from columns ['hue_mean', 'rawgreen_mean']
+  - Using operators ['add', 'unary_cube']
+- New_feature_12:
+  - Built from columns ['region_centroid_row']
+  - Using operators ['square', 'unary_cube']
+- New_feature_13:
+  - Built from columns ['exgreen_mean', 'hedge_sd', 'hue_mean']
+  - Using operators ['unary_sqrtabs', 'subtract', 'add']
+- New_feature_14:
+  - Built from columns ['short_line_density_5', 'hue_mean', 'region_centroid_row']
+  - Using operators ['subtract', 'square', 'unary_sqrtabs', 'unary_sqrtabs', 'subtract']
+- New_feature_15:
+  - Built from columns ['exblue_mean', 'region_centroid_row']
+  - Using operators ['unary_sqrtabs', 'absolute', 'multiply']
+- New_feature_16:
+  - Built from columns ['exred_mean', 'rawred_mean']
+  - Using operators ['square', 'original_feat', 'absolute', 'unary_sqrtabs', 'add']

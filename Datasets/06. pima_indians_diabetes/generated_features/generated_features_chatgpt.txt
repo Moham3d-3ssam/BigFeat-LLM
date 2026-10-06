@@ -1,0 +1,15 @@
+Number of new features 3
+==================
+Old Shape: (614, 8)
+==================
+New Shape: (614, 11)
+=================
+- New_feature_0:
+  - Built from columns ['BMI', 'DiabetesPedigreeFunction', 'BloodPressure', 'Glucose']
+  - Using operators ['add', 'unary_cube', 'subtract', 'absolute', 'add']
+- New_feature_1:
+  - Built from columns ['Glucose', 'BloodPressure', 'Insulin', 'Age']
+  - Using operators ['subtract', 'subtract', 'subtract']
+- New_feature_2:
+  - Built from columns ['BMI', 'Glucose']
+  - Using operators ['add']

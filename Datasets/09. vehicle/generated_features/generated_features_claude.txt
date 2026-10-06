@@ -1,0 +1,90 @@
+Number of new features 28
+==================
+Old Shape: (676, 18)
+==================
+New Shape: (676, 46)
+=================
+- New_feature_0:
+  - Built from columns ['max_length_rectangularity', 'scaled_variance_minor_axis']
+  - Using operators ['original_feat', 'absolute', 'subtract']
+- New_feature_1:
+  - Built from columns ['elongatedness', 'max_length_aspect_ratio', 'max_length_aspect_ratio', 'scaled_variance_minor_axis']
+  - Using operators ['multiply', 'add', 'multiply']
+- New_feature_2:
+  - Built from columns ['compactness', 'distance_circularity', 'distance_circularity', 'circularity']
+  - Using operators ['add', 'subtract', 'add']
+- New_feature_3:
+  - Built from columns ['distance_circularity', 'scaled_variance_major_axis']
+  - Using operators ['subtract']
+- New_feature_4:
+  - Built from columns ['scaled_variance_minor_axis', 'max_length_rectangularity']
+  - Using operators ['subtract', 'unary_cube']
+- New_feature_5:
+  - Built from columns ['max_length_aspect_ratio', 'scatter_ratio']
+  - Using operators ['subtract']
+- New_feature_6:
+  - Built from columns ['elongatedness', 'max_length_rectangularity']
+  - Using operators ['add']
+- New_feature_7:
+  - Built from columns ['scaled_radius_gyration', 'skewness_minor_axis']
+  - Using operators ['unary_cube', 'unary_sqrtabs', 'subtract', 'absolute']
+- New_feature_8:
+  - Built from columns ['scatter_ratio', 'scaled_variance_minor_axis']
+  - Using operators ['subtract']
+- New_feature_9:
+  - Built from columns ['skewness_minor_axis', 'circularity']
+  - Using operators ['subtract']
+- New_feature_10:
+  - Built from columns ['distance_circularity', 'scatter_ratio', 'elongatedness']
+  - Using operators ['square', 'subtract', 'subtract', 'absolute']
+- New_feature_11:
+  - Built from columns ['scaled_radius_gyration', 'compactness', 'elongatedness']
+  - Using operators ['unary_cube', 'square', 'add', 'original_feat', 'subtract']
+- New_feature_12:
+  - Built from columns ['circularity', 'elongatedness', 'scatter_ratio', 'distance_circularity', 'pr_axis_rectangularity', 'scaled_variance_minor_axis']
+  - Using operators ['square', 'subtract', 'add', 'subtract', 'unary_cube', 'subtract', 'multiply']
+- New_feature_13:
+  - Built from columns ['scaled_variance_major_axis', 'max_length_aspect_ratio']
+  - Using operators ['subtract', 'absolute']
+- New_feature_14:
+  - Built from columns ['pr_axis_rectangularity', 'max_length_aspect_ratio', 'max_length_rectangularity', 'scaled_variance_minor_axis']
+  - Using operators ['add', 'subtract', 'group_by']
+- New_feature_15:
+  - Built from columns ['skewness_major_axis', 'max_length_rectangularity', 'circularity', 'scaled_variance_major_axis']
+  - Using operators ['add', 'multiply', 'multiply']
+- New_feature_16:
+  - Built from columns ['max_length_rectangularity', 'skewness_major_axis', 'elongatedness', 'scaled_variance_major_axis']
+  - Using operators ['multiply', 'unary_sqrtabs', 'original_feat', 'original_feat', 'add', 'add']
+- New_feature_17:
+  - Built from columns ['pr_axis_aspect_ratio', 'skewness_minor_axis', 'max_length_aspect_ratio']
+  - Using operators ['absolute', 'subtract', 'subtract']
+- New_feature_18:
+  - Built from columns ['max_length_aspect_ratio', 'compactness']
+  - Using operators ['add']
+- New_feature_19:
+  - Built from columns ['hollows_ratio', 'elongatedness']
+  - Using operators ['multiply', 'original_feat']
+- New_feature_20:
+  - Built from columns ['scaled_variance_minor_axis', 'scaled_radius_gyration', 'distance_circularity']
+  - Using operators ['multiply', 'square', 'subtract']
+- New_feature_21:
+  - Built from columns ['max_length_aspect_ratio', 'pr_axis_rectangularity', 'pr_axis_aspect_ratio']
+  - Using operators ['multiply', 'absolute', 'subtract', 'unary_cube']
+- New_feature_22:
+  - Built from columns ['distance_circularity', 'max_length_aspect_ratio']
+  - Using operators ['multiply']
+- New_feature_23:
+  - Built from columns ['skewness_major_axis', 'pr_axis_rectangularity', 'max_length_aspect_ratio']
+  - Using operators ['unary_cube', 'multiply', 'subtract']
+- New_feature_24:
+  - Built from columns ['hollows_ratio', 'scaled_variance_major_axis']
+  - Using operators ['subtract']
+- New_feature_25:
+  - Built from columns ['hollows_ratio', 'kurtosis_minor_axis']
+  - Using operators ['subtract']
+- New_feature_26:
+  - Built from columns ['pr_axis_aspect_ratio', 'max_length_aspect_ratio']
+  - Using operators ['subtract']
+- New_feature_27:
+  - Built from columns ['elongatedness', 'distance_circularity']
+  - Using operators ['add']
