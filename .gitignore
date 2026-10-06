@@ -1,0 +1,21 @@
+# --- Your personal API key file - NEVER commit this ---
+setup/llm_config.py
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Virtual environments ---
+venv/
+.venv/
+
+# --- Packaging artifacts (from `pip install .` / `python setup.py sdist`) ---
+dist/
+build/
+*.egg-info/
+
+# --- Optional: your own local data/logs/results folders, if you add any ---
+# Uncomment and adjust paths to match whatever you actually create:
+# data/*
+# logs/*
+# res/*
