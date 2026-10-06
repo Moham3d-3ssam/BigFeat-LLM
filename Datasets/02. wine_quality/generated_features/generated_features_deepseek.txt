@@ -1,0 +1,15 @@
+Number of new features 3
+==================
+Old Shape: (5197, 11)
+==================
+New Shape: (5197, 14)
+=================
+- New_feature_0:
+  - Built from columns ['residual_sugar', 'total_sulfur_dioxide', 'density', 'citric_acid', 'density', 'volatile_acidity']
+  - Using operators ['subtract', 'original_feat', 'multiply', 'subtract', 'subtract', 'subtract']
+- New_feature_1:
+  - Built from columns ['chlorides', 'alcohol', 'alcohol', 'density']
+  - Using operators ['subtract', 'subtract', 'subtract']
+- New_feature_2:
+  - Built from columns ['volatile_acidity', 'free_sulfur_dioxide', 'total_sulfur_dioxide', 'chlorides', 'density']
+  - Using operators ['subtract', 'subtract', 'add', 'unary_sqrtabs', 'original_feat', 'subtract']

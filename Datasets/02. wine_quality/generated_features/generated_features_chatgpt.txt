@@ -1,0 +1,18 @@
+Number of new features 4
+==================
+Old Shape: (5197, 11)
+==================
+New Shape: (5197, 15)
+=================
+- New_feature_0:
+  - Built from columns ['residual_sugar', 'total_sulfur_dioxide', 'density', 'volatile_acidity', 'density', 'volatile_acidity']
+  - Using operators ['subtract', 'original_feat', 'add', 'subtract', 'subtract', 'subtract']
+- New_feature_1:
+  - Built from columns ['pH', 'alcohol', 'volatile_acidity']
+  - Using operators ['multiply', 'square', 'subtract']
+- New_feature_2:
+  - Built from columns ['free_sulfur_dioxide', 'sulphates']
+  - Using operators ['add']
+- New_feature_3:
+  - Built from columns ['total_sulfur_dioxide', 'chlorides', 'alcohol', 'free_sulfur_dioxide']
+  - Using operators ['subtract', 'add', 'subtract']

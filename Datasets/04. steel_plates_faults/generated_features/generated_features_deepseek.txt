@@ -1,0 +1,108 @@
+Number of new features 34
+==================
+Old Shape: (1552, 25)
+==================
+New Shape: (1552, 59)
+=================
+- New_feature_0:
+  - Built from columns ['TypeOfSteel_A400', 'Luminosity_Index']
+  - Using operators ['subtract']
+- New_feature_1:
+  - Built from columns ['TypeOfSteel_A400', 'LogOfAreas']
+  - Using operators ['unary_sqrtabs', 'unary_cube', 'subtract']
+- New_feature_2:
+  - Built from columns ['Minimum_of_Luminosity', 'LogOfAreas']
+  - Using operators ['add']
+- New_feature_3:
+  - Built from columns ['Log_Y_Index', 'TypeOfSteel_A400', 'X_Minimum', 'Y_Perimeter']
+  - Using operators ['subtract', 'subtract', 'subtract']
+- New_feature_4:
+  - Built from columns ['Edges_Index', 'TypeOfSteel_A400']
+  - Using operators ['multiply']
+- New_feature_5:
+  - Built from columns ['Y_Perimeter', 'Y_Maximum', 'Pixels_Areas', 'Minimum_of_Luminosity']
+  - Using operators ['add', 'add', 'add']
+- New_feature_6:
+  - Built from columns ['Orientation_Index', 'Edges_X_Index']
+  - Using operators ['multiply']
+- New_feature_7:
+  - Built from columns ['Log_X_Index', 'Edges_X_Index']
+  - Using operators ['add']
+- New_feature_8:
+  - Built from columns ['Square_Index', 'Y_Minimum', 'Edges_X_Index', 'Steel_Plate_Thickness']
+  - Using operators ['square', 'original_feat', 'unary_cube', 'subtract', 'subtract', 'multiply']
+- New_feature_9:
+  - Built from columns ['X_Minimum', 'TypeOfSteel_A400']
+  - Using operators ['add']
+- New_feature_10:
+  - Built from columns ['Minimum_of_Luminosity', 'X_Perimeter']
+  - Using operators ['subtract', 'absolute']
+- New_feature_11:
+  - Built from columns ['Steel_Plate_Thickness', 'X_Maximum']
+  - Using operators ['unary_sqrtabs', 'original_feat', 'subtract']
+- New_feature_12:
+  - Built from columns ['Pixels_Areas', 'Edges_Y_Index', 'TypeOfSteel_A400', 'Pixels_Areas']
+  - Using operators ['unary_sqrtabs', 'unary_cube', 'multiply', 'absolute', 'subtract', 'multiply']
+- New_feature_13:
+  - Built from columns ['TypeOfSteel_A400', 'Luminosity_Index', 'Outside_Global_Index', 'Pixels_Areas']
+  - Using operators ['unary_sqrtabs', 'multiply', 'multiply', 'absolute', 'square', 'subtract']
+- New_feature_14:
+  - Built from columns ['Luminosity_Index', 'Pixels_Areas', 'X_Perimeter', 'Maximum_of_Luminosity']
+  - Using operators ['subtract', 'absolute', 'subtract', 'square', 'multiply']
+- New_feature_15:
+  - Built from columns ['Orientation_Index', 'Maximum_of_Luminosity']
+  - Using operators ['subtract']
+- New_feature_16:
+  - Built from columns ['Maximum_of_Luminosity', 'Sum_of_Luminosity', 'Steel_Plate_Thickness', 'Edges_Y_Index', 'TypeOfSteel_A400']
+  - Using operators ['square', 'unary_sqrtabs', 'multiply', 'unary_sqrtabs', 'multiply', 'multiply', 'multiply']
+- New_feature_17:
+  - Built from columns ['SigmoidOfAreas', 'Empty_Index', 'Minimum_of_Luminosity']
+  - Using operators ['absolute', 'add', 'subtract']
+- New_feature_18:
+  - Built from columns ['SigmoidOfAreas', 'X_Perimeter', 'Edges_Index', 'Empty_Index']
+  - Using operators ['multiply', 'multiply', 'multiply']
+- New_feature_19:
+  - Built from columns ['Pixels_Areas', 'Orientation_Index', 'SigmoidOfAreas', 'Y_Minimum', 'Edges_Y_Index']
+  - Using operators ['subtract', 'original_feat', 'square', 'multiply', 'subtract', 'add']
+- New_feature_20:
+  - Built from columns ['Edges_Index', 'SigmoidOfAreas']
+  - Using operators ['multiply']
+- New_feature_21:
+  - Built from columns ['Edges_Index', 'Pixels_Areas', 'Pixels_Areas', 'LogOfAreas', 'Y_Perimeter']
+  - Using operators ['square', 'original_feat', 'add', 'add', 'subtract', 'add']
+- New_feature_22:
+  - Built from columns ['Sum_of_Luminosity', 'Steel_Plate_Thickness']
+  - Using operators ['multiply']
+- New_feature_23:
+  - Built from columns ['Y_Maximum', 'Edges_X_Index']
+  - Using operators ['subtract', 'unary_sqrtabs', 'square']
+- New_feature_24:
+  - Built from columns ['Y_Maximum', 'Minimum_of_Luminosity']
+  - Using operators ['unary_cube', 'original_feat', 'add']
+- New_feature_25:
+  - Built from columns ['Maximum_of_Luminosity', 'Empty_Index', 'Steel_Plate_Thickness']
+  - Using operators ['subtract', 'original_feat', 'multiply', 'unary_cube']
+- New_feature_26:
+  - Built from columns ['Maximum_of_Luminosity', 'TypeOfSteel_A400', 'LogOfAreas', 'Edges_Y_Index']
+  - Using operators ['original_feat', 'multiply', 'subtract', 'unary_cube', 'square', 'subtract']
+- New_feature_27:
+  - Built from columns ['X_Minimum', 'Y_Perimeter', 'Maximum_of_Luminosity', 'Outside_X_Index']
+  - Using operators ['multiply', 'multiply', 'multiply']
+- New_feature_28:
+  - Built from columns ['SigmoidOfAreas', 'Y_Perimeter', 'Orientation_Index', 'Edges_Y_Index', 'Y_Perimeter', 'Minimum_of_Luminosity']
+  - Using operators ['subtract', 'unary_sqrtabs', 'multiply', 'multiply', 'unary_cube', 'add', 'subtract']
+- New_feature_29:
+  - Built from columns ['LogOfAreas', 'Y_Maximum', 'SigmoidOfAreas', 'Pixels_Areas', 'Maximum_of_Luminosity', 'Square_Index', 'Steel_Plate_Thickness', 'Sum_of_Luminosity']
+  - Using operators ['subtract', 'multiply', 'add', 'subtract', 'add', 'subtract', 'subtract']
+- New_feature_30:
+  - Built from columns ['Minimum_of_Luminosity', 'Maximum_of_Luminosity']
+  - Using operators ['unary_cube', 'original_feat', 'multiply', 'unary_sqrtabs']
+- New_feature_31:
+  - Built from columns ['SigmoidOfAreas', 'Y_Perimeter', 'Outside_Global_Index', 'Maximum_of_Luminosity', 'Log_X_Index', 'Y_Perimeter']
+  - Using operators ['unary_sqrtabs', 'unary_sqrtabs', 'subtract', 'subtract', 'subtract', 'multiply', 'add']
+- New_feature_32:
+  - Built from columns ['Empty_Index', 'Edges_X_Index']
+  - Using operators ['subtract']
+- New_feature_33:
+  - Built from columns ['Square_Index', 'X_Perimeter', 'Log_X_Index', 'Pixels_Areas', 'LogOfAreas', 'Edges_Y_Index']
+  - Using operators ['subtract', 'add', 'subtract', 'subtract', 'unary_cube', 'multiply']

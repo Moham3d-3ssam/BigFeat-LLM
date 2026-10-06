@@ -1,0 +1,60 @@
+Number of new features 18
+==================
+Old Shape: (5197, 11)
+==================
+New Shape: (5197, 29)
+=================
+- New_feature_0:
+  - Built from columns ['chlorides', 'density', 'density', 'alcohol']
+  - Using operators ['group_by', 'multiply', 'add']
+- New_feature_1:
+  - Built from columns ['citric_acid', 'density', 'alcohol']
+  - Using operators ['absolute', 'group_by', 'multiply']
+- New_feature_2:
+  - Built from columns ['volatile_acidity', 'free_sulfur_dioxide', 'residual_sugar', 'pH']
+  - Using operators ['subtract', 'subtract', 'group_by', 'square']
+- New_feature_3:
+  - Built from columns ['sulphates', 'free_sulfur_dioxide']
+  - Using operators ['add']
+- New_feature_4:
+  - Built from columns ['free_sulfur_dioxide', 'total_sulfur_dioxide']
+  - Using operators ['subtract']
+- New_feature_5:
+  - Built from columns ['volatile_acidity', 'density', 'alcohol', 'density', 'fixed_acidity', 'fixed_acidity', 'volatile_acidity', 'density']
+  - Using operators ['subtract', 'add', 'subtract', 'subtract', 'subtract', 'subtract', 'subtract']
+- New_feature_6:
+  - Built from columns ['alcohol', 'residual_sugar']
+  - Using operators ['add']
+- New_feature_7:
+  - Built from columns ['free_sulfur_dioxide', 'free_sulfur_dioxide', 'total_sulfur_dioxide']
+  - Using operators ['multiply', 'unary_cube', 'subtract']
+- New_feature_8:
+  - Built from columns ['citric_acid', 'chlorides', 'total_sulfur_dioxide', 'alcohol']
+  - Using operators ['subtract', 'subtract', 'group_by']
+- New_feature_9:
+  - Built from columns ['free_sulfur_dioxide', 'residual_sugar', 'density', 'chlorides']
+  - Using operators ['multiply', 'group_by', 'add']
+- New_feature_10:
+  - Built from columns ['chlorides', 'alcohol', 'volatile_acidity']
+  - Using operators ['original_feat', 'group_by', 'subtract']
+- New_feature_11:
+  - Built from columns ['density', 'free_sulfur_dioxide', 'alcohol']
+  - Using operators ['group_by', 'square', 'add']
+- New_feature_12:
+  - Built from columns ['total_sulfur_dioxide', 'sulphates', 'chlorides', 'alcohol', 'free_sulfur_dioxide']
+  - Using operators ['subtract', 'add', 'subtract', 'unary_sqrtabs', 'original_feat', 'subtract']
+- New_feature_13:
+  - Built from columns ['sulphates', 'density', 'alcohol', 'sulphates']
+  - Using operators ['multiply', 'group_by', 'add']
+- New_feature_14:
+  - Built from columns ['alcohol', 'free_sulfur_dioxide', 'density', 'volatile_acidity', 'residual_sugar', 'pH']
+  - Using operators ['group_by', 'original_feat', 'subtract', 'multiply', 'subtract', 'multiply']
+- New_feature_15:
+  - Built from columns ['density', 'volatile_acidity', 'citric_acid', 'pH', 'total_sulfur_dioxide']
+  - Using operators ['subtract', 'group_by', 'subtract', 'square', 'square', 'subtract']
+- New_feature_16:
+  - Built from columns ['sulphates', 'free_sulfur_dioxide', 'free_sulfur_dioxide']
+  - Using operators ['absolute', 'group_by', 'add']
+- New_feature_17:
+  - Built from columns ['alcohol', 'density', 'volatile_acidity', 'free_sulfur_dioxide']
+  - Using operators ['subtract', 'subtract', 'subtract', 'absolute']

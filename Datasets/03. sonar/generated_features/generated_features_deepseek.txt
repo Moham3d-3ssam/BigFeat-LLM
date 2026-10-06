@@ -1,0 +1,192 @@
+Number of new features 62
+==================
+Old Shape: (166, 60)
+==================
+New Shape: (166, 122)
+=================
+- New_feature_0:
+  - Built from columns ['frequency_band_48', 'frequency_band_01']
+  - Using operators ['multiply']
+- New_feature_1:
+  - Built from columns ['frequency_band_27', 'frequency_band_51']
+  - Using operators ['multiply']
+- New_feature_2:
+  - Built from columns ['frequency_band_17', 'frequency_band_12']
+  - Using operators ['subtract']
+- New_feature_3:
+  - Built from columns ['frequency_band_51', 'frequency_band_05']
+  - Using operators ['add']
+- New_feature_4:
+  - Built from columns ['frequency_band_49', 'frequency_band_52']
+  - Using operators ['add']
+- New_feature_5:
+  - Built from columns ['frequency_band_30', 'frequency_band_05']
+  - Using operators ['multiply', 'square']
+- New_feature_6:
+  - Built from columns ['frequency_band_45', 'frequency_band_21']
+  - Using operators ['multiply', 'unary_cube']
+- New_feature_7:
+  - Built from columns ['frequency_band_27', 'frequency_band_14', 'frequency_band_47', 'frequency_band_05']
+  - Using operators ['multiply', 'add', 'subtract']
+- New_feature_8:
+  - Built from columns ['frequency_band_21', 'frequency_band_52']
+  - Using operators ['add', 'absolute']
+- New_feature_9:
+  - Built from columns ['frequency_band_10']
+  - Using operators ['original_feat']
+- New_feature_10:
+  - Built from columns ['frequency_band_37', 'frequency_band_17']
+  - Using operators ['add']
+- New_feature_11:
+  - Built from columns ['frequency_band_02', 'frequency_band_11']
+  - Using operators ['add']
+- New_feature_12:
+  - Built from columns ['frequency_band_42', 'frequency_band_38', 'frequency_band_45']
+  - Using operators ['multiply', 'original_feat', 'subtract']
+- New_feature_13:
+  - Built from columns ['frequency_band_47', 'frequency_band_49']
+  - Using operators ['multiply', 'unary_cube', 'unary_cube']
+- New_feature_14:
+  - Built from columns ['frequency_band_07', 'frequency_band_01', 'frequency_band_48']
+  - Using operators ['multiply', 'square', 'unary_cube', 'original_feat', 'add']
+- New_feature_15:
+  - Built from columns ['frequency_band_45', 'frequency_band_54']
+  - Using operators ['add']
+- New_feature_16:
+  - Built from columns ['frequency_band_51']
+  - Using operators ['absolute']
+- New_feature_17:
+  - Built from columns ['frequency_band_11', 'frequency_band_06']
+  - Using operators ['add']
+- New_feature_18:
+  - Built from columns ['frequency_band_36']
+  - Using operators ['unary_sqrtabs']
+- New_feature_19:
+  - Built from columns ['frequency_band_05', 'frequency_band_46']
+  - Using operators ['absolute', 'original_feat', 'multiply']
+- New_feature_20:
+  - Built from columns ['frequency_band_26', 'frequency_band_46']
+  - Using operators ['add', 'square']
+- New_feature_21:
+  - Built from columns ['frequency_band_34', 'frequency_band_25', 'frequency_band_49']
+  - Using operators ['add', 'unary_cube', 'multiply']
+- New_feature_22:
+  - Built from columns ['frequency_band_45', 'frequency_band_04']
+  - Using operators ['add']
+- New_feature_23:
+  - Built from columns ['frequency_band_36']
+  - Using operators ['unary_cube', 'square']
+- New_feature_24:
+  - Built from columns ['frequency_band_11', 'frequency_band_53']
+  - Using operators ['multiply']
+- New_feature_25:
+  - Built from columns ['frequency_band_03', 'frequency_band_11', 'frequency_band_11', 'frequency_band_06']
+  - Using operators ['add', 'subtract', 'add']
+- New_feature_26:
+  - Built from columns ['frequency_band_49', 'frequency_band_28']
+  - Using operators ['add']
+- New_feature_27:
+  - Built from columns ['frequency_band_43', 'frequency_band_13', 'frequency_band_19']
+  - Using operators ['absolute', 'add', 'multiply']
+- New_feature_28:
+  - Built from columns ['frequency_band_12', 'frequency_band_51']
+  - Using operators ['multiply', 'absolute']
+- New_feature_29:
+  - Built from columns ['frequency_band_10']
+  - Using operators ['unary_cube', 'unary_cube']
+- New_feature_30:
+  - Built from columns ['frequency_band_45', 'frequency_band_37']
+  - Using operators ['original_feat', 'square', 'subtract']
+- New_feature_31:
+  - Built from columns ['frequency_band_47', 'frequency_band_28']
+  - Using operators ['unary_sqrtabs', 'unary_cube', 'multiply']
+- New_feature_32:
+  - Built from columns ['frequency_band_04', 'frequency_band_47']
+  - Using operators ['multiply', 'square']
+- New_feature_33:
+  - Built from columns ['frequency_band_52', 'frequency_band_27']
+  - Using operators ['multiply']
+- New_feature_34:
+  - Built from columns ['frequency_band_07', 'frequency_band_12', 'frequency_band_23', 'frequency_band_48', 'frequency_band_11', 'frequency_band_17']
+  - Using operators ['absolute', 'original_feat', 'multiply', 'add', 'subtract', 'add', 'add']
+- New_feature_35:
+  - Built from columns ['frequency_band_37', 'frequency_band_42']
+  - Using operators ['subtract']
+- New_feature_36:
+  - Built from columns ['frequency_band_43', 'frequency_band_11', 'frequency_band_55', 'frequency_band_09', 'frequency_band_46']
+  - Using operators ['multiply', 'square', 'absolute', 'add', 'add', 'multiply']
+- New_feature_37:
+  - Built from columns ['frequency_band_44', 'frequency_band_36']
+  - Using operators ['absolute', 'unary_sqrtabs', 'subtract', 'original_feat']
+- New_feature_38:
+  - Built from columns ['frequency_band_27', 'frequency_band_39', 'frequency_band_04', 'frequency_band_36']
+  - Using operators ['multiply', 'subtract', 'add']
+- New_feature_39:
+  - Built from columns ['frequency_band_51', 'frequency_band_10']
+  - Using operators ['multiply', 'unary_cube']
+- New_feature_40:
+  - Built from columns ['frequency_band_27', 'frequency_band_47']
+  - Using operators ['add']
+- New_feature_41:
+  - Built from columns ['frequency_band_12', 'frequency_band_12']
+  - Using operators ['multiply', 'square']
+- New_feature_42:
+  - Built from columns ['frequency_band_51', 'frequency_band_13', 'frequency_band_43', 'frequency_band_25']
+  - Using operators ['add', 'multiply', 'multiply']
+- New_feature_43:
+  - Built from columns ['frequency_band_58', 'frequency_band_12']
+  - Using operators ['add', 'unary_sqrtabs']
+- New_feature_44:
+  - Built from columns ['frequency_band_36', 'frequency_band_01']
+  - Using operators ['subtract', 'unary_cube']
+- New_feature_45:
+  - Built from columns ['frequency_band_43', 'frequency_band_22']
+  - Using operators ['multiply']
+- New_feature_46:
+  - Built from columns ['frequency_band_12', 'frequency_band_48']
+  - Using operators ['multiply']
+- New_feature_47:
+  - Built from columns ['frequency_band_07', 'frequency_band_44', 'frequency_band_43']
+  - Using operators ['add', 'absolute', 'add']
+- New_feature_48:
+  - Built from columns ['frequency_band_49']
+  - Using operators ['unary_sqrtabs']
+- New_feature_49:
+  - Built from columns ['frequency_band_47', 'frequency_band_22']
+  - Using operators ['square', 'absolute', 'multiply']
+- New_feature_50:
+  - Built from columns ['frequency_band_54', 'frequency_band_32', 'frequency_band_10']
+  - Using operators ['multiply', 'square', 'unary_cube', 'square', 'multiply']
+- New_feature_51:
+  - Built from columns ['frequency_band_21', 'frequency_band_48']
+  - Using operators ['multiply']
+- New_feature_52:
+  - Built from columns ['frequency_band_14', 'frequency_band_59', 'frequency_band_11', 'frequency_band_21']
+  - Using operators ['unary_cube', 'unary_sqrtabs', 'subtract', 'unary_cube', 'subtract', 'add']
+- New_feature_53:
+  - Built from columns ['frequency_band_12', 'frequency_band_42']
+  - Using operators ['add']
+- New_feature_54:
+  - Built from columns ['frequency_band_58', 'frequency_band_16', 'frequency_band_43']
+  - Using operators ['multiply', 'unary_cube', 'add']
+- New_feature_55:
+  - Built from columns ['frequency_band_44', 'frequency_band_52']
+  - Using operators ['multiply']
+- New_feature_56:
+  - Built from columns ['frequency_band_19', 'frequency_band_36', 'frequency_band_11']
+  - Using operators ['unary_cube', 'subtract', 'multiply']
+- New_feature_57:
+  - Built from columns ['frequency_band_23', 'frequency_band_36']
+  - Using operators ['subtract']
+- New_feature_58:
+  - Built from columns ['frequency_band_44', 'frequency_band_12']
+  - Using operators ['multiply', 'unary_sqrtabs']
+- New_feature_59:
+  - Built from columns ['frequency_band_11', 'frequency_band_52']
+  - Using operators ['add']
+- New_feature_60:
+  - Built from columns ['frequency_band_24', 'frequency_band_49']
+  - Using operators ['multiply']
+- New_feature_61:
+  - Built from columns ['frequency_band_28', 'frequency_band_11']
+  - Using operators ['square', 'square', 'multiply']

@@ -1,0 +1,15 @@
+Number of new features 3
+==================
+Old Shape: (455, 30)
+==================
+New Shape: (455, 33)
+=================
+- New_feature_0:
+  - Built from columns ['radius_worst', 'concavity_mean']
+  - Using operators ['multiply', 'absolute']
+- New_feature_1:
+  - Built from columns ['area_se', 'concave_points_mean', 'radius_worst', 'radius_worst']
+  - Using operators ['multiply', 'multiply', 'multiply']
+- New_feature_2:
+  - Built from columns ['area_mean', 'texture_worst', 'concave_points_mean']
+  - Using operators ['multiply', 'square', 'unary_cube', 'square', 'multiply']
