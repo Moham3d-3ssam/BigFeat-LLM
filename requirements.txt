@@ -1,0 +1,16 @@
+# Core dependencies for BigFeat itself (bigfeat_base.py, local_utils.py)
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+lightgbm>=4.0
+scipy>=1.10
+
+# Needed by the LLM auto-initialization layer (llm_runner.py) to call
+# the OpenAI, DeepSeek, and Claude APIs
+requests>=2.31
+
+# Optional: only needed if you use provider="gemini" in llm_runner.py.
+# The older `google-generativeai` package reached end-of-life on
+# 2025-11-30 and is no longer maintained - this is the current official
+# replacement. Uncomment if you plan to use Gemini:
+# google-genai>=0.3
