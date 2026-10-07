@@ -1,0 +1,81 @@
+Number of new features 25
+==================
+Old Shape: (15216, 10)
+==================
+New Shape: (15216, 35)
+=================
+- New_feature_0:
+  - Built from columns ['fLength', 'fWidth']
+  - Using operators ['add']
+- New_feature_1:
+  - Built from columns ['fLength', 'fSize']
+  - Using operators ['subtract']
+- New_feature_2:
+  - Built from columns ['fSize', 'fAlpha']
+  - Using operators ['multiply']
+- New_feature_3:
+  - Built from columns ['fConc', 'fSize', 'fM3Long']
+  - Using operators ['multiply', 'square', 'add']
+- New_feature_4:
+  - Built from columns ['fConc', 'fLength']
+  - Using operators ['multiply']
+- New_feature_5:
+  - Built from columns ['fSize', 'fLength', 'fLength']
+  - Using operators ['subtract', 'square', 'add']
+- New_feature_6:
+  - Built from columns ['fLength', 'fM3Long', 'fWidth', 'fAlpha', 'fDist', 'fWidth', 'fAlpha']
+  - Using operators ['multiply', 'absolute', 'add', 'multiply', 'multiply', 'multiply', 'multiply']
+- New_feature_7:
+  - Built from columns ['fDist', 'fLength', 'fAlpha', 'fM3Trans', 'fConc', 'fSize', 'fConc1', 'fSize']
+  - Using operators ['multiply', 'add', 'subtract', 'add', 'multiply', 'subtract', 'multiply']
+- New_feature_8:
+  - Built from columns ['fSize', 'fConc']
+  - Using operators ['add']
+- New_feature_9:
+  - Built from columns ['fM3Long', 'fM3Trans', 'fWidth', 'fAlpha']
+  - Using operators ['absolute', 'multiply', 'subtract', 'unary_sqrtabs', 'unary_cube', 'subtract']
+- New_feature_10:
+  - Built from columns ['fAlpha', 'fAlpha', 'fLength']
+  - Using operators ['original_feat', 'multiply', 'multiply']
+- New_feature_11:
+  - Built from columns ['fWidth', 'fAsym', 'fDist', 'fM3Long', 'fLength', 'fLength']
+  - Using operators ['add', 'add', 'subtract', 'add', 'absolute', 'subtract']
+- New_feature_12:
+  - Built from columns ['fConc1', 'fWidth', 'fSize', 'fAlpha']
+  - Using operators ['subtract', 'unary_cube', 'multiply', 'absolute', 'subtract']
+- New_feature_13:
+  - Built from columns ['fLength', 'fM3Long']
+  - Using operators ['subtract']
+- New_feature_14:
+  - Built from columns ['fConc1', 'fSize', 'fAsym', 'fM3Trans', 'fAsym']
+  - Using operators ['square', 'unary_sqrtabs', 'multiply', 'unary_cube', 'multiply', 'multiply', 'multiply']
+- New_feature_15:
+  - Built from columns ['fSize', 'fAlpha', 'fWidth', 'fDist']
+  - Using operators ['add', 'add', 'multiply']
+- New_feature_16:
+  - Built from columns ['fAlpha', 'fWidth', 'fWidth']
+  - Using operators ['multiply', 'square', 'add']
+- New_feature_17:
+  - Built from columns ['fWidth', 'fAlpha', 'fWidth']
+  - Using operators ['square', 'multiply', 'multiply']
+- New_feature_18:
+  - Built from columns ['fLength', 'fConc', 'fM3Long', 'fLength', 'fAsym', 'fSize']
+  - Using operators ['multiply', 'absolute', 'subtract', 'multiply', 'add', 'multiply']
+- New_feature_19:
+  - Built from columns ['fConc1', 'fSize']
+  - Using operators ['multiply', 'unary_cube']
+- New_feature_20:
+  - Built from columns ['fConc', 'fWidth']
+  - Using operators ['multiply']
+- New_feature_21:
+  - Built from columns ['fSize', 'fM3Long', 'fWidth', 'fM3Trans']
+  - Using operators ['subtract', 'square', 'multiply', 'square', 'multiply']
+- New_feature_22:
+  - Built from columns ['fSize', 'fConc']
+  - Using operators ['multiply']
+- New_feature_23:
+  - Built from columns ['fWidth', 'fWidth', 'fSize', 'fLength', 'fDist', 'fAlpha', 'fConc']
+  - Using operators ['multiply', 'subtract', 'add', 'multiply', 'original_feat', 'multiply', 'multiply']
+- New_feature_24:
+  - Built from columns ['fSize', 'fAlpha', 'fConc', 'fLength']
+  - Using operators ['multiply', 'square', 'multiply', 'unary_cube', 'multiply']

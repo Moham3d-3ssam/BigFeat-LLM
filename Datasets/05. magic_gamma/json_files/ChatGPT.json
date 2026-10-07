@@ -1,0 +1,35 @@
+{
+  "iterations": 8,
+  "gen_size": 8,
+  "N": 32,
+  "alpha": 10,
+  "eta": 0.82,
+  "height": 3,
+  "n_trees": 200,
+  "estimator": "avg",
+  "random_state": 42,
+  "binary_operators": [
+    "np.multiply",
+    "np.add",
+    "np.subtract"
+  ],
+  "unary_operators": [
+    "np.abs",
+    "np.square",
+    "local_utils.unary_cube",
+    "local_utils.unary_sqrtabs",
+    "local_utils.original_feat"
+  ],
+  "feature_importance": [
+    0.88,
+    0.84,
+    0.68,
+    0.61,
+    0.55,
+    0.79,
+    0.94,
+    0.87,
+    1.0,
+    0.72
+  ]
+}
